@@ -1,13 +1,16 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "m-1",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "this is first packege",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "test",
     "start": "node app.js",
-    "start-server": "node app.js"
+    "start-server": "nodemon app.js"
   },
-  "author": "Maximilian Schwarzmüller",
-  "license": "ISC"
+  "author": "Mahmoud majed",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
